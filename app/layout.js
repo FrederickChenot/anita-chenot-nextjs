@@ -2,6 +2,7 @@ import { Playfair_Display, Lato } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Providers from "./components/Providers";
 
 const playfair = Playfair_Display({ variable: "--font-playfair", subsets: ["latin"] });
 const lato = Lato({ variable: "--font-lato", weight: ["300", "400", "700"], subsets: ["latin"] });
@@ -16,9 +17,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr" className={`${playfair.variable} ${lato.variable}`}>
       <body className="min-h-screen flex flex-col bg-[#FDF8F0]">
-        <Header />
-        {children}
-        <Footer />
+        <Providers>
+          <Header />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
