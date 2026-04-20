@@ -12,7 +12,12 @@ export default function AvisPage() {
       <div className="mx-auto max-w-4xl">
         <div className="text-center mb-16">
           <h1 className="font-[var(--font-playfair)] text-4xl text-[#2C2416] mb-4">Avis & témoignages</h1>
-          <div className="w-10 h-px bg-[#C4832A] mx-auto"/>
+          <div className="w-10 h-px bg-[#C4832A] mx-auto mb-8"/>
+          <a href="https://www.pagesjaunes.fr/contribution/votre-avis-reglemente/51410609?codeRubrique=58400300"
+            target="_blank" rel="noopener noreferrer"
+            className="inline-block font-[var(--font-lato)] text-xs tracking-[3px] uppercase border border-[#C4832A] text-[#C4832A] px-8 py-3 hover:bg-[#C4832A] hover:text-[#FDF8F0] transition-colors">
+            Laisser un avis
+          </a>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {AVIS.map(({ nom, texte, note }) => (

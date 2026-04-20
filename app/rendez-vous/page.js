@@ -16,7 +16,7 @@ export default function RendezVousPage() {
             <p className="font-[var(--font-lato)] text-sm text-[#5C4A2A] leading-relaxed mb-8">
               Prenez rendez-vous en ligne directement via Clicrdv. Vous serez redirigé vers le site de réservation.
             </p>
-            <a href="https://www.clicrdv.com" target="_blank" rel="noopener noreferrer"
+            <a href="https://www.clicrdv.com/anita-chenot" target="_blank" rel="noopener noreferrer"
               className="inline-block font-[var(--font-lato)] text-xs tracking-[3px] uppercase bg-[#C4832A] text-[#FDF8F0] px-10 py-4 hover:bg-[#A36B20] transition-colors">
               Réserver en ligne
             </a>

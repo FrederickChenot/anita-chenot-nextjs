@@ -13,9 +13,9 @@ export default function AProposPage() {
           <p className="font-[var(--font-lato)] text-sm tracking-[2px] text-[#C4832A] uppercase">Diététicienne Nutritionniste</p>
         </div>
         <div className="space-y-6 font-[var(--font-lato)] text-sm text-[#5C4A2A] leading-relaxed">
-          <p>Diplômée en diététique, je vous accompagne dans une démarche personnalisée et bienveillante vers un équilibre alimentaire durable. Mon approche est loin des régimes restrictifs — elle s'appuie sur l'écoute de vos sensations, de vos goûts et de votre mode de vie.</p>
-          <p>Je reçois en consultation individuelle à Épinal, et propose également des ateliers culinaires en groupe et des journées thématiques autour de l'alimentation intuitive.</p>
-          <p>Mon objectif : vous aider à retrouver une relation sereine et plaisante avec la nourriture, sans frustration ni culpabilité.</p>
+          <p>De 1995 à 1997, j'ai obtenu un DUT de biologie appliquée, option diététique à Nancy. En 2005, après avoir travaillé dans plusieurs établissements de santé dans différentes régions de France, je me suis installée dans les Vosges pour exercer en libéral. Depuis 2008, je reçois mes patients à Jeuxey pour des consultations individuelles.</p>
+          <p>En parallèle, je travaille avec plusieurs EHPAD, j'anime des Ateliers Nutrition Santé pour différents publics et participe aux programmes d'Éducation Thérapeutique du Patient portés par l'Association Vosgienne des Réseaux de Santé (surpoids, diabète, ostéoporose).</p>
+          <p>Récemment, dans un souci d'accompagner les personnes vers des changements alimentaires durables, j'ai obtenu un Diplôme Universitaire Psychologie et Pédagogie du Comportement Alimentaire.</p>
         </div>
       </div>
     </main>
