@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Fred/Desktop/bureau2/Projet-Dev/Anita-Chenot-Dietetique/src/images//**)",
+      "Read(//c/Users/Fred/Desktop/bureau2/Projet-Dev//**)",
+      "Bash(mkdir -p /c/Users/Fred/Desktop/bureau2/Projet-Dev/anita-chenot-nextjs/app/components)",
+      "Bash(mkdir -p /c/Users/Fred/Desktop/bureau2/Projet-Dev/anita-chenot-nextjs/app/prestations)",
+      "Bash(mkdir -p /c/Users/Fred/Desktop/bureau2/Projet-Dev/anita-chenot-nextjs/app/rendez-vous)",
+      "Bash(mkdir -p /c/Users/Fred/Desktop/bureau2/Projet-Dev/anita-chenot-nextjs/app/contact)",
+      "Bash(mkdir -p /c/Users/Fred/Desktop/bureau2/Projet-Dev/anita-chenot-nextjs/app/avis)",
+      "Bash(git add *)"
+    ]
+  }
+}
