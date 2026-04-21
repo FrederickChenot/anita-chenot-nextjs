@@ -2,6 +2,7 @@
 import { useSession, signOut } from "next-auth/react";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import ImageUpload from "@/app/components/ImageUpload";
 import {
   DndContext,
   closestCenter,
@@ -186,7 +187,6 @@ export default function AdminPage() {
               {[
                 ["Titre", "title", "text"],
                 ["Prix", "prix", "text"],
-                ["URL image", "img", "text"],
               ].map(([label, key, type]) => (
                 <div key={key}>
                   <label className="font-[var(--font-lato)] text-xs text-[#7A6240] uppercase tracking-wide mb-1 block">{label}</label>
@@ -207,9 +207,13 @@ export default function AdminPage() {
                   className="w-full border border-[#E8D5B7] rounded px-4 py-2 text-sm font-[var(--font-lato)] focus:outline-none focus:border-[#C4832A] bg-[#FDF8F0]"
                 />
               </div>
-              {form.img && (
-                <img src={form.img} alt="aperçu" className="h-32 object-cover rounded border border-[#E8D5B7]" />
-              )}
+              <div>
+                <label className="font-[var(--font-lato)] text-xs text-[#7A6240] uppercase tracking-wide mb-1 block">Photo</label>
+                <ImageUpload
+                  currentImg={form.img}
+                  onUpload={(url) => setForm({ ...form, img: url })}
+                />
+              </div>
             </div>
             <div className="flex gap-3 mt-6">
               <button
