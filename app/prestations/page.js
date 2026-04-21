@@ -1,6 +1,10 @@
 import { neon } from "@neondatabase/serverless";
 
-export const metadata = { title: "Prestations" };
+export const metadata = {
+  title: "Prestations",
+  description: "Découvrez les consultations individuelles, ateliers culinaires et journées sensations alimentaires proposés par Anita Chenot, diététicienne à Épinal (Vosges).",
+  alternates: { canonical: "/prestations" },
+};
 
 async function getPrestations() {
   const sql = neon(process.env.DATABASE_URL);

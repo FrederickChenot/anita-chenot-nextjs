@@ -1,4 +1,8 @@
-export const metadata = { title: "Contact" };
+export const metadata = {
+  title: "Contact",
+  description: "Contactez Anita Chenot, diététicienne à Jeuxey (Épinal, 88) — par téléphone, email ou LinkedIn.",
+  alternates: { canonical: "/contact" },
+};
 
 const CONTACTS = [
   { label: "Téléphone", href: "tel:0606452788", display: "06 06 45 27 88", icon: "📞" },

@@ -1,4 +1,8 @@
-export const metadata = { title: "À propos" };
+export const metadata = {
+  title: "À propos",
+  description: "Parcours et formation d'Anita Chenot : DUT diététique à Nancy, 20 ans d'exercice libéral dans les Vosges, DU psychologie du comportement alimentaire.",
+  alternates: { canonical: "/a-propos" },
+};
 
 export default function AProposPage() {
   return (

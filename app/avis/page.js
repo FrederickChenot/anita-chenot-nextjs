@@ -1,4 +1,8 @@
-export const metadata = { title: "Avis & témoignages" };
+export const metadata = {
+  title: "Avis & témoignages",
+  description: "Témoignages de patients d'Anita Chenot, diététicienne à Épinal. Partagez votre expérience sur Pages Jaunes.",
+  alternates: { canonical: "/avis" },
+};
 
 const AVIS = [
   { nom: "Marie L.", texte: "Anita m'a aidée à retrouver une relation saine avec la nourriture. Son approche bienveillante et ses conseils pratiques ont vraiment changé ma façon de manger au quotidien.", note: 5 },
