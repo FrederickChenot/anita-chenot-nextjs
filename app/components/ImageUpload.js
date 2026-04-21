@@ -18,7 +18,11 @@ export default function ImageUpload({ currentImg, onUpload }) {
       { method: "POST", body: formData }
     );
     const data = await res.json();
-    onUpload(data.secure_url);
+    const optimizedUrl = data.secure_url.replace(
+      "/upload/",
+      "/upload/w_800,h_600,c_fill,q_auto,f_auto/"
+    );
+    onUpload(optimizedUrl);
     setUploading(false);
   }
 
